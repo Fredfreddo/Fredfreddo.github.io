@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Elena Ferrante (1)</title>
+    <link href="/2024/01/30/Elena-Ferrante-1/"/>
+    <url>/2024/01/30/Elena-Ferrante-1/</url>
+    
+    <content type="html"><![CDATA[<p>To be honest I have never seriously read <strong>Ferrante</strong> until very recently, although I claim myself as a big fan since long ago.</p><p>It was back in the last year of high school, when I became relatively free post-application. I spent a huge portion of time in bookstores, mainly <strong>Renda Mingde</strong> next to RDFZ’s east gate, <strong>Douban</strong>, and <strong>Wansheng</strong>. At the same time the first book of Neapolitan series, <strong>L’amica geniale</strong>, was translated and published in China. The sorta-weird Chinese title and the well-designed book covers appeared in front of me nearly everyday. Concurrently I was exposed to countless articles, critics, praises, and interviews online. I was fancied by the topic and storyline yet somehow I never purchased the book.</p><p>Ferrante was so popular that their books became a part of socializing from time to time. With information I gathered from articles and TV series clips I appeared as a fan in many occasions. Looking back, it seemed a bit <em>hypocritic</em>.</p><p>Nonetheless, the mystery of Ferrante actually helped me <em>academically</em> multiple times. Once for a presentation in a law course at LUISS, I used Ferrante as an example to discuss how <strong>copyright laws</strong> in different regions handle works published in <strong>pseudonyms</strong>. How should you <em>register</em> copyright under pseudonym, what is the <em>life cycle</em> of copyright if the author remain anonymous, what if the identity is <em>revealed</em> voluntarily, or even forcedly, what should you be careful about <em>translation</em> and publishing in <em>another</em> country, is any country requiring a <em>real legal name</em> registered in a <em>public</em> database, how other relatively old pseudonyms, such as Ellery Queen, are right now? It was a fun little research at the time.</p><p>Another case is <strong>Authorship Attribution</strong>, a popular topic in Natural Language Processing. There are many efforts made to unveil Ferrante’s true identity, including papers analyzing a huge of amount of candidates’ novels to perform unsupervised learning. Mentioned methods include Latent Dirichlet Allocation, Correspondence Analysis, Principle Component Analysis, Labbe’s “intertextual distance”, etc… It almost became a project for a NLP course I took before, yet it was not feasible as many corpora were not accessible.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Self-Mumbling</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>KMT-TPP Coop polling</title>
     <link href="/2024/01/28/KMT-TPP-Coop-polling/"/>
     <url>/2024/01/28/KMT-TPP-Coop-polling/</url>

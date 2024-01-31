@@ -16,21 +16,21 @@
   <meta name="author" content="yfq32">
   <meta name="keywords" content="">
   
-    <meta name="description" content="I am taking a course in sampling theory and design this semester. I believe data collection, annotation, and processing are crucial and their importance is sometimes underestimated. I am still a begin">
+    <meta name="description" content="To be honest I have never seriously read Ferrante until very recently, although I claim myself as a big fan since long ago. It was back in the last year of high school, when I became relatively free p">
 <meta property="og:type" content="article">
-<meta property="og:title" content="KMT-TPP Coop polling">
-<meta property="og:url" content="http://example.com/2024/01/28/KMT-TPP-Coop-polling/index.html">
+<meta property="og:title" content="Elena Ferrante (1)">
+<meta property="og:url" content="http://example.com/2024/01/30/Elena-Ferrante-1/index.html">
 <meta property="og:site_name" content="yfq32">
-<meta property="og:description" content="I am taking a course in sampling theory and design this semester. I believe data collection, annotation, and processing are crucial and their importance is sometimes underestimated. I am still a begin">
+<meta property="og:description" content="To be honest I have never seriously read Ferrante until very recently, although I claim myself as a big fan since long ago. It was back in the last year of high school, when I became relatively free p">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2024-01-28T06:56:19.000Z">
-<meta property="article:modified_time" content="2024-01-28T07:12:07.693Z">
+<meta property="article:published_time" content="2024-01-31T04:25:37.000Z">
+<meta property="article:modified_time" content="2024-01-31T04:58:31.193Z">
 <meta property="article:author" content="yfq32">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>KMT-TPP Coop polling - yfq32</title>
+  <title>Elena Ferrante (1) - yfq32</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -225,7 +225,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="KMT-TPP Coop polling"></span>
+            <span id="subtitle" data-typed-text="Elena Ferrante (1)"></span>
           
         </div>
 
@@ -236,8 +236,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-01-28 01:56" pubdate>
-          28 01 2024 01:56:19
+        <time datetime="2024-01-30 23:25" pubdate>
+          30 01 2024 11:25:37
         </time>
       </span>
     
@@ -280,16 +280,16 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">KMT-TPP Coop polling</h1>
+            <h1 id="seo-header">Elena Ferrante (1)</h1>
             
             
               <div class="markdown-body">
                 
-                <p>I am taking a course in <strong>sampling</strong> theory and design this semester.</p>
-<p>I believe data collection, annotation, and processing are crucial and their importance is sometimes <strong>underestimated</strong>.</p>
-<p>I am still a beginner in learning sampling. One example is doing analysis for Bridge by generating random boards by <a target="_blank" rel="noopener" href="https://github.com/anntzer/redeal">redeal</a>, which I am always confused about what specification would make my analysis more trustworthy or accurate in respect to the specific scenario I am considering, and I always wondered to what extend the sample size compared to the theoretical possible combinations matters.</p>
-<p>The other topic that intrigues me is political polling. Take the example of the potential cooperation of KMT and TPP in the previous Taiwan Election, there was a huge <a target="_blank" rel="noopener" href="https://www.cna.com.tw/news/aipl/202311185003.aspx">disagreement</a> on the polling statistics and errors. I am putting my code running the simulation here, and the more theoretical discussion might be posted later.</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br><br>np.random.seed(<span class="hljs-number">111</span>)<br><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">estimate_CI</span>(<span class="hljs-params">supportKeHou, supportLaiXiao1, supportHouKe, supportLaiXiao2, </span><br><span class="hljs-params">                simulation_count=<span class="hljs-number">10000</span>, sample_size=<span class="hljs-number">1000</span></span>):<br>    <span class="hljs-string">&#x27;&#x27;&#x27;</span><br><span class="hljs-string">    Simulation of LanBaiHe </span><br><span class="hljs-string">    supportKeHou: float in [0,1], support rate for KeHou against LaiXiao</span><br><span class="hljs-string">    supportHouKe: float in [0,1], support rate for HouKe against LaiXiao</span><br><span class="hljs-string">    supportLaiXiao1 &amp; supportLaiXiao2: float [0,1], support rate for LaiXiao against Kehou(1) or HouKe(2)</span><br><span class="hljs-string">    simulation_count: positive int, number of simulations to run</span><br><span class="hljs-string">    sample_size: number of votes casted in the poll</span><br><span class="hljs-string">    &#x27;&#x27;&#x27;</span><br>    <br>    <span class="hljs-comment"># Randomly choose #sample_size elements from [1, -1, 0] with respective support rates as prob</span><br>    <span class="hljs-comment"># where 1 denotes LanBaiHe, -1 denotes LaiXiao, 0 denotes voting for neither of them</span><br>    <span class="hljs-comment"># the sum of each choice result divided by sample_size is the sopport rate difference of LanBaihe over LaiXiao </span><br>    <span class="hljs-comment"># Run this random choice # simulation_count times</span><br>    result1 = np.array([<span class="hljs-built_in">sum</span>(np.random.choice([<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>, <span class="hljs-number">0</span>], sample_size, <br>                                             p=[supportKeHou, supportLaiXiao1, <span class="hljs-number">1</span>- supportKeHou - supportLaiXiao1])) / sample_size <br>                        <span class="hljs-keyword">for</span> _ <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(simulation_count)])<br>    result2 = np.array([<span class="hljs-built_in">sum</span>(np.random.choice([<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>, <span class="hljs-number">0</span>], sample_size, <br>                                             p=[supportHouKe, supportLaiXiao2, <span class="hljs-number">1</span>- supportHouKe - supportLaiXiao2])) / sample_size <br>                        <span class="hljs-keyword">for</span> _ <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(simulation_count)])<br>    <span class="hljs-comment"># Get the differnece of these two differences</span><br>    <span class="hljs-comment"># Calculate the mean and std</span><br>    dif_mean = np.mean(result1 - result2)<br>    dif_std = np.std(result1 - result2)<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;柯胜赖-侯胜赖:<span class="hljs-subst">&#123;dif_mean&#125;</span>\n标准差:<span class="hljs-subst">&#123;dif_std&#125;</span>\n95%CI:[<span class="hljs-subst">&#123;dif_mean - <span class="hljs-number">1.96</span> * dif_std&#125;</span>,<span class="hljs-subst">&#123;dif_mean + <span class="hljs-number">1.96</span> * dif_std&#125;</span>]&quot;</span>)<br><br><span class="hljs-comment"># poll_1</span><br><span class="hljs-built_in">print</span>(<span class="hljs-string">&#x27;Poll #1&#x27;</span>)<br>estimate_CI(<span class="hljs-number">0.483</span>, <span class="hljs-number">0.392</span>, <span class="hljs-number">0.461</span>, <span class="hljs-number">0.416</span>, sample_size=<span class="hljs-number">2046</span>)<br><br><span class="hljs-comment"># poll_4</span><br><span class="hljs-built_in">print</span>(<span class="hljs-string">&#x27;Poll #4&#x27;</span>)<br>estimate_CI(<span class="hljs-number">0.4601</span>, <span class="hljs-number">0.3222</span>, <span class="hljs-number">0.4082</span>, <span class="hljs-number">0.3586</span>, sample_size=<span class="hljs-number">1112</span>)<br></code></pre></td></tr></table></figure>
+                <p>To be honest I have never seriously read <strong>Ferrante</strong> until very recently, although I claim myself as a big fan since long ago.</p>
+<p>It was back in the last year of high school, when I became relatively free post-application. I spent a huge portion of time in bookstores, mainly <strong>Renda Mingde</strong> next to RDFZ’s east gate, <strong>Douban</strong>, and <strong>Wansheng</strong>. At the same time the first book of Neapolitan series, <strong>L’amica geniale</strong>, was translated and published in China. The sorta-weird Chinese title and the well-designed book covers appeared in front of me nearly everyday. Concurrently I was exposed to countless articles, critics, praises, and interviews online. I was fancied by the topic and storyline yet somehow I never purchased the book.</p>
+<p>Ferrante was so popular that their books became a part of socializing from time to time. With information I gathered from articles and TV series clips I appeared as a fan in many occasions. Looking back, it seemed a bit <em>hypocritic</em>.</p>
+<p>Nonetheless, the mystery of Ferrante actually helped me <em>academically</em> multiple times. Once for a presentation in a law course at LUISS, I used Ferrante as an example to discuss how <strong>copyright laws</strong> in different regions handle works published in <strong>pseudonyms</strong>. How should you <em>register</em> copyright under pseudonym, what is the <em>life cycle</em> of copyright if the author remain anonymous, what if the identity is <em>revealed</em> voluntarily, or even forcedly, what should you be careful about <em>translation</em> and publishing in <em>another</em> country, is any country requiring a <em>real legal name</em> registered in a <em>public</em> database, how other relatively old pseudonyms, such as Ellery Queen, are right now? It was a fun little research at the time.</p>
+<p>Another case is <strong>Authorship Attribution</strong>, a popular topic in Natural Language Processing. There are many efforts made to unveil Ferrante’s true identity, including papers analyzing a huge of amount of candidates’ novels to perform unsupervised learning. Mentioned methods include Latent Dirichlet Allocation, Correspondence Analysis, Principle Component Analysis, Labbe’s “intertextual distance”, etc… It almost became a project for a NLP course I took before, yet it was not feasible as many corpora were not accessible.</p>
 
                 
               </div>
@@ -328,8 +328,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>KMT-TPP Coop polling</div>
-      <div>http://example.com/2024/01/28/KMT-TPP-Coop-polling/</div>
+      <div>Elena Ferrante (1)</div>
+      <div>http://example.com/2024/01/30/Elena-Ferrante-1/</div>
     </div>
     <div class="license-meta">
       
@@ -341,7 +341,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>January 28, 2024</div>
+          <div>January 30, 2024</div>
         </div>
       
       
@@ -373,18 +373,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/01/30/Elena-Ferrante-1/" title="Elena Ferrante (1)">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Elena Ferrante (1)</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/01/27/Kobe/" title="Kobe">
-                        <span class="hidden-mobile">Kobe</span>
+                      <a href="/2024/01/28/KMT-TPP-Coop-polling/" title="KMT-TPP Coop polling">
+                        <span class="hidden-mobile">KMT-TPP Coop polling</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
