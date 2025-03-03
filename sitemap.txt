@@ -1,3 +1,4 @@
+https://fredfreddo.github.io/2025/03/03/Bridge-and-Mixed-Strategy-an-Example/
 https://fredfreddo.github.io/2025/02/23/Spring-in-the-North-Youth-from-the-South/
 https://fredfreddo.github.io/2024/01/04/0104/
 https://fredfreddo.github.io/2025/01/08/About-Me/
@@ -81,3 +82,4 @@ https://fredfreddo.github.io/categories/Self-Mumbling/Food/
 https://fredfreddo.github.io/categories/Self-Mumbling/Who-Am-I/
 https://fredfreddo.github.io/categories/Self-Mumbling/Data-Science-and-Life/
 https://fredfreddo.github.io/categories/Self-Mumbling/Fun-Fact/
+https://fredfreddo.github.io/categories/Bridge/
