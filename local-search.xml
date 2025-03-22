@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>Ding Junhui&#39;s Curse: A Data Analysis</title>
+    <link href="/2025/03/21/Ding-Junhui-s-Curse-A-Data-Analysis/"/>
+    <url>/2025/03/21/Ding-Junhui-s-Curse-A-Data-Analysis/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>He who beats Ding this round, next round, shall not pass</p></blockquote><p>An interesting pattern on <strong>World Snooker Tour</strong> has come to fans’ attention lately. Basically, since 2024 Player Championship, in the last 20 tournaments that <strong>Ding Junhui</strong> played in, <em>the opponent who beat him would be knocked out in the very next match</em>.</p><p>This trend was first noticed by Chinese fans last year, when people called it <strong>“The 1st Law of Ding Junhui”</strong>. It drew more attention from English-speaking fans recently. In particular, <strong>Shaun Murphy</strong> mentioned it in the <a href="https://open.spotify.com/show/2MDiuKCEzwoxqFRn9cXm6T">onefourseven Snooker Podcast</a>. Detailed lists of who Ding lost to and how they got beaten in the next round were compiled by multiple sources, you may find one in Chinese <a href="https://weibo.com/5718804188/PjnyS2lI8">here</a> on Weibo, and one in English <a href="https://metro.co.uk/2025/03/14/ding-junhui-curse-haunts-this-snooker-season-can-break-22722452/">here</a> on Metro.</p><p>This Law, or curse, works not only in normal way, such as whoever beat Ding in Quarter-final would got beaten in Semi-final, but also in mysterious ways. For example, in <strong>2024 World Open</strong>, Ding lost to <strong>Judd Trump</strong> in the final, and then Judd would later be beaten in the very first round of the very next tournament, <strong>Tour Championship</strong>. Also, in this year’s <strong>German Masters</strong>, where Ding withdrew from the tournament, <strong>Ross Muir</strong>, who received a bye against Ding, got knocked out in his next match.</p><p>Naturally, people start to wonder if Ding actually has some mysterious power, or it’s just coincidental. I made an analysis regarding all the <strong>WST</strong> players records during the time frame when Ding’s Curse worked 100% (2024 Player Championship to 2025 World Grand Prix) and find some interesting results. I gathered information from <a href="https://snooker.org/">snooker.org</a>, you may find my source code <a href="https://github.com/Fredfreddo/Ding-Junhui-Curse-Analysis/blob/main/DingJunhui_Curse_Analysis.ipynb">here</a>.</p><h3 id="Definitions"><a href="#Definitions" class="headerlink" title="Definitions"></a>Definitions</h3><p>We keep track of the following features for each player $P_i$:</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Sports</category>
+      
+      <category>Snooker</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Rebel Girls</title>
     <link href="/2025/03/07/Rebel-Girls/"/>
     <url>/2025/03/07/Rebel-Girls/</url>
