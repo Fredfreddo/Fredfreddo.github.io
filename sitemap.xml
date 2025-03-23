@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fredfreddo.github.io/2024/03/28/Clean-the-Blackboard/</loc>
+    
+    <lastmod>2025-03-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fredfreddo.github.io/2025/03/21/Ding-Junhui-s-Curse-A-Data-Analysis/</loc>
     
     <lastmod>2025-03-23</lastmod>
@@ -237,15 +246,6 @@
   
   <url>
     <loc>https://fredfreddo.github.io/2024/01/18/cold/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/03/28/Clean-the-Blackboard/</loc>
     
     <lastmod>2025-01-09</lastmod>
     
