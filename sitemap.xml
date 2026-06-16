@@ -461,6 +461,20 @@
 
   
   <url>
+    <loc>https://fredfreddo.github.io/tags/Huey-Long/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fredfreddo.github.io/tags/Kaiserreich/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://fredfreddo.github.io/tags/Ecofemenism/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -504,20 +518,6 @@
   
   <url>
     <loc>https://fredfreddo.github.io/tags/Revolution/</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Huey-Long/</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Kaiserreich/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -596,14 +596,14 @@
   </url>
   
   <url>
-    <loc>https://fredfreddo.github.io/categories/Books/</loc>
+    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Early-Days/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Early-Days/</loc>
+    <loc>https://fredfreddo.github.io/categories/Books/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -631,14 +631,14 @@
   </url>
   
   <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Random-Thoughts/</loc>
+    <loc>https://fredfreddo.github.io/categories/Bridge/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fredfreddo.github.io/categories/Bridge/</loc>
+    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Random-Thoughts/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -673,14 +673,14 @@
   </url>
   
   <url>
-    <loc>https://fredfreddo.github.io/categories/Sports/Snooker/</loc>
+    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Data-Science-and-Life/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Data-Science-and-Life/</loc>
+    <loc>https://fredfreddo.github.io/categories/Sports/Snooker/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
