@@ -76,7 +76,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"fredfreddo.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null,"google_site_verification":"pHUetYDP1-nxhAOXSXCQKG_9saca2b3GSMnsVAoeK4k"},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"8xNHgO2jXZcrS5TOYtCeajXz-MdYXbMMI","app_key":"rf0iitACtHdUQ0XSBU9LLiNl","server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"fredfreddo.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"8xNHgO2jXZcrS5TOYtCeajXz-MdYXbMMI","app_key":"rf0iitACtHdUQ0XSBU9LLiNl","server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -313,21 +313,16 @@
 <p>Performance on 2026 World Open: <strong>Prediction Accuracy 73.47%, hypothetical betting gain: 4.2%</strong></p>
 <h3 id="Method-A"><a href="#Method-A" class="headerlink" title="Method A"></a>Method A</h3><p>In this approach, apart from typical ELO, recent abilities to make 70+ breaks are taken into consideration. Average score for all players is 1500.</p>
 <h4 id="ELO-is-handled-on-frame-level"><a href="#ELO-is-handled-on-frame-level" class="headerlink" title="ELO is handled on frame level"></a>ELO is handled on frame level</h4><p>For a Match between player1 and player2, we have expected frame win rate for player1 as:</p>
-<p>$$P_{1,2} &#x3D; \frac{1}{1+e^{(S_1-S_2)&#x2F;400}}$$</p>
-<p>Where $S_1$ and $S_2$ are the scores of player1 and player2 respectively. After a match, the scores are updated as:</p>
-<p>$$S_1’ &#x3D; S_1 + K \cdot (F_1 - T_{1,2} \cdot P_{1,2})$$</p>
-<p>$$S_2’ &#x3D; S_2 + K \cdot (F_2 - T_{2,1} \cdot P_{2,1})$$</p>
-<p>Where:</p>
+<script type="math/tex; mode=display">P_{1,2} = \frac{1}{1+e^{(S_1-S_2)/400}}</script><p>Where $S_1$ and $S_2$ are the scores of player1 and player2 respectively. After a match, the scores are updated as:</p>
+<script type="math/tex; mode=display">S_1' = S_1 + K \cdot (F_1 - T_{1,2} \cdot P_{1,2})</script><script type="math/tex; mode=display">S_2' = S_2 + K \cdot (F_2 - T_{2,1} \cdot P_{2,1})</script><p>Where:</p>
 <ul>
 <li>$F_1$ and $F_2$ are the actual frame wins for player1 and player2 respectively</li>
-<li>$T_{1,2} &#x3D; T_{2,1} &#x3D; F_1 + F_2$ is the total frames played in the match</li>
-<li>$P_{2,1} &#x3D; 1 - P_{1,2}$ is the expected frame win rate for player2 against player1</li>
+<li>$T<em>{1,2} = T</em>{2,1} = F_1 + F_2$ is the total frames played in the match</li>
+<li>$P<em>{2,1} = 1 - P</em>{1,2}$ is the expected frame win rate for player2 against player1</li>
 <li>$K$ is a constant that determines the sensitivity of score updates</li>
 </ul>
 <p>This so far is standard frame-wise ELO, satisfying the <strong><em>Zero-Sum</em></strong> property, meaning the total score of both players remains constant after a match, because:</p>
-<p>$$T_{1,2} &#x3D; T_{2,1} &#x3D; F_1 + F_2$$<br>$$P_{2,1} + P_{1,2} &#x3D; 1$$</p>
-<h4 id="Count-of-70-breaks-is-introduced"><a href="#Count-of-70-breaks-is-introduced" class="headerlink" title="Count of 70+ breaks is introduced"></a>Count of 70+ breaks is introduced</h4><p>$$S_1’’ &#x3D; S_1’ + M \cdot (B_1 - G \cdot F_1) $$<br>$$S_2’’ &#x3D; S_2’ + M \cdot (B_2 - G \cdot F_2) $$</p>
-<p>Where:</p>
+<script type="math/tex; mode=display">T_{1,2} = T_{2,1} = F_1 + F_2</script><script type="math/tex; mode=display">P_{2,1} + P_{1,2} = 1</script><h4 id="Count-of-70-breaks-is-introduced"><a href="#Count-of-70-breaks-is-introduced" class="headerlink" title="Count of 70+ breaks is introduced"></a>Count of 70+ breaks is introduced</h4><script type="math/tex; mode=display">S_1'' = S_1' + M \cdot (B_1 - G \cdot F_1)</script><script type="math/tex; mode=display">S_2'' = S_2' + M \cdot (B_2 - G \cdot F_2)</script><p>Where:</p>
 <ul>
 <li>$B_1$ and $B_2$ are the counts of 70+ breaks for player1 and player2 respectively</li>
 <li>$G$, usually around 0.31-0.33, is the season global average of 70+ breaks per frame, calculated as total 70+ breaks divided by total frames in the season</li>
@@ -335,7 +330,8 @@
 </ul>
 <p>Now the <strong><em>Zero-Sum</em></strong> property is no longer satisfied on the match level, since two players could play both well (many 70+) or bad and therefore have both positive or negative changes in scores.</p>
 <p>However, on a season level, the average score of all players remains constant, because we compared player’s match performance against the seasonal average 70+ breaks per frame, and the total 70+ breaks and total frames are fixed for the season, and therefore the total score change from 70+ breaks across all players will sum to zero.</p>
-<h4 id="Method-A-score-prior-to-2026-World-Open-last-64"><a href="#Method-A-score-prior-to-2026-World-Open-last-64" class="headerlink" title="Method A score prior to 2026 World Open last 64:"></a>Method A score prior to 2026 World Open last 64:</h4><table>
+<h4 id="Method-A-score-prior-to-2026-World-Open-last-64"><a href="#Method-A-score-prior-to-2026-World-Open-last-64" class="headerlink" title="Method A score prior to 2026 World Open last 64:"></a>Method A score prior to 2026 World Open last 64:</h4><div class="table-container">
+<table>
 <thead>
 <tr>
 <th>Rank</th>
@@ -343,7 +339,8 @@
 <th>Latest Score</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>1</td>
 <td>Zhao Xintong</td>
 <td>2406.340808642514</td>
@@ -423,25 +420,23 @@
 <td>Neil Robertson</td>
 <td>2083.49485922483</td>
 </tr>
-</tbody></table>
-<h4 id="A-demonstration-of-Score-evolution-since-2022-2023-season-for-Judd-Trump-Zhao-Xintong-and-Mark-Selby"><a href="#A-demonstration-of-Score-evolution-since-2022-2023-season-for-Judd-Trump-Zhao-Xintong-and-Mark-Selby" class="headerlink" title="A demonstration of Score evolution since 2022&#x2F;2023 season for Judd Trump, Zhao Xintong and Mark Selby:"></a>A demonstration of Score evolution since 2022&#x2F;2023 season for Judd Trump, Zhao Xintong and Mark Selby:</h4><p><img src="/images/optionA.png" srcset="/img/loading.gif" lazyload alt="Method A Score Evolution"></p>
+</tbody>
+</table>
+</div>
+<h4 id="A-demonstration-of-Score-evolution-since-2022-2023-season-for-Judd-Trump-Zhao-Xintong-and-Mark-Selby"><a href="#A-demonstration-of-Score-evolution-since-2022-2023-season-for-Judd-Trump-Zhao-Xintong-and-Mark-Selby" class="headerlink" title="A demonstration of Score evolution since 2022/2023 season for Judd Trump, Zhao Xintong and Mark Selby:"></a>A demonstration of Score evolution since 2022/2023 season for Judd Trump, Zhao Xintong and Mark Selby:</h4><p><img src="/images/optionA.png" srcset="/img/loading.gif" lazyload alt="Method A Score Evolution"></p>
 <h3 id="Method-B"><a href="#Method-B" class="headerlink" title="Method B"></a>Method B</h3><p>The main problem for Method A is that the number of total frames in a match is not fixed.</p>
 <h4 id="Expected-Number-of-Frames-won"><a href="#Expected-Number-of-Frames-won" class="headerlink" title="Expected Number of Frames won"></a>Expected Number of Frames won</h4><p>Method B calculates the expected number of frames won by players. For a scenario when player 1 wins k frames and player 2 wins r frames, the probability of this scenario is calculated as:</p>
-<p>$$P(F_1&#x3D;k,F_2&#x3D;r,k \gt r) &#x3D; \binom{k+r-1}{r} \cdot P_{1,2}^k \cdot P_{2,1}^r$$</p>
-<p>$$P(F_1&#x3D;k,F_2&#x3D;r,k \lt r) &#x3D; \binom{k+r-1}{k} \cdot P_{1,2}^k \cdot P_{2,1}^r$$</p>
-<p>Where $P_{1,2}$ and $P_{2,1}$ are the expected frame win rates for player1 and player2 respectively, calculated as in Method 1.</p>
+<script type="math/tex; mode=display">P(F_1=k,F_2=r,k \gt r) = \binom{k+r-1}{r} \cdot P_{1,2}^k \cdot P_{2,1}^r</script><script type="math/tex; mode=display">P(F_1=k,F_2=r,k \lt r) = \binom{k+r-1}{k} \cdot P_{1,2}^k \cdot P_{2,1}^r</script><p>Where $P<em>{1,2}$ and $P</em>{2,1}$ are the expected frame win rates for player1 and player2 respectively, calculated as in Method 1.</p>
 <p>Considering all scenarios, the expected number of frames won by player1 and player 2 are:</p>
-<p>$$E[F_1] &#x3D; \sum_{k}{} \sum_{r}^{} k \cdot P(F_1&#x3D;k,F_2&#x3D;r)$$<br>$$E[F_2] &#x3D; \sum_{k}{} \sum_{r}^{} r \cdot P(F_1&#x3D;k,F_2&#x3D;r)$$</p>
-<p>Then the score updates are calculated as:</p>
-<p>$$S_1’ &#x3D; S_1 + K \cdot (F_1-E[F_1])$$<br>$$S_2’ &#x3D; S_2 + K \cdot (F_2-E[F_2])$$</p>
-<p>In this case, there is no match level zero-sum property. Take example of a match where Zhao Xintong best an amateur player 4-3:</p>
+<script type="math/tex; mode=display">E[F_1] = \sum_{k}{} \sum_{r}^{} k \cdot P(F_1=k,F_2=r)</script><script type="math/tex; mode=display">E[F_2] = \sum_{k}{} \sum_{r}^{} r \cdot P(F_1=k,F_2=r)</script><p>Then the score updates are calculated as:</p>
+<script type="math/tex; mode=display">S_1' = S_1 + K \cdot (F_1-E[F_1])</script><script type="math/tex; mode=display">S_2' = S_2 + K \cdot (F_2-E[F_2])</script><p>In this case, there is no match level zero-sum property. Take example of a match where Zhao Xintong best an amateur player 4-3:</p>
 <ul>
-<li>Method A would deduct Zhao’s score because he has about 90+% expected frame win rate but only won 4 out of 7</li>
+<li>Method A would deduct Zhao’s score because he has about 90+\% expected frame win rate but only won 4 out of 7</li>
 <li>Method B would increase Zhao’s score slightly because he won more frames than expected (but very close to 4)</li>
 <li>Both Methods would increase the amateur player’s score significantly because he won much more frames than expected</li>
 </ul>
 <p>Therefore, we need a solution to balance out the inflation of scores caused by Method B, introducing:</p>
-<h4 id="Score-Decay-and-Recovery"><a href="#Score-Decay-and-Recovery" class="headerlink" title="Score Decay and Recovery"></a>Score Decay and Recovery</h4><p>For a match on day $t$ for a player. Check their last match’s date $t’$, if $\Delta t&#x3D;t-t’&gt;7$, it triggers decay or recovery before we evaluate the matches expected number of frames won by players.</p>
+<h4 id="Score-Decay-and-Recovery"><a href="#Score-Decay-and-Recovery" class="headerlink" title="Score Decay and Recovery"></a>Score Decay and Recovery</h4><p>For a match on day $t$ for a player. Check their last match’s date $t’$, if $\Delta t=t-t’&gt;7$, it triggers decay or recovery before we evaluate the matches expected number of frames won by players.</p>
 <ul>
 <li>if the player’s current score is below 1500 and their historical highest score, we “recover” their score by an amount proportional to $\Delta t$ and the difference between current score and historical highest, with a maximum cap.</li>
 <li>else, if the player’s current score is above its historical average score, we “decay” their score by an amount proportional to $\Delta t$ and the difference between the current score and the historical average, with a maximum cap.</li>
@@ -449,7 +444,8 @@
 <p>By adjusting the hyperparameters of decay and recovery, we can control the overall inflation of scores caused by Method B, keeping the overall average around 1500.</p>
 <p>This “decay and recovery” mechanism also helps to reflect players’ current forms more accurately, as elite players who have been inactive for a while will have their skills regressed towards their average, and players with lower scores will recover from the break.</p>
 <p>A important note to this method is that an initialization of players’ estimated scores are recommended (or a burn-in period), otherwise the historical average would not be accurate.</p>
-<h4 id="Method-B-score-prior-to-2026-World-Open-last-64"><a href="#Method-B-score-prior-to-2026-World-Open-last-64" class="headerlink" title="Method B score prior to 2026 World Open last 64:"></a>Method B score prior to 2026 World Open last 64:</h4><table>
+<h4 id="Method-B-score-prior-to-2026-World-Open-last-64"><a href="#Method-B-score-prior-to-2026-World-Open-last-64" class="headerlink" title="Method B score prior to 2026 World Open last 64:"></a>Method B score prior to 2026 World Open last 64:</h4><div class="table-container">
+<table>
 <thead>
 <tr>
 <th>Rank</th>
@@ -457,7 +453,8 @@
 <th>Latest Score</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>1</td>
 <td>Mark Selby</td>
 <td>2960.1461099128837</td>
@@ -537,11 +534,13 @@
 <td>Chris Wakelin</td>
 <td>2116.705502290573</td>
 </tr>
-</tbody></table>
-<h4 id="A-demonstration-of-Score-evolution-since-2022-2023-season-for-Judd-Trump-Zhao-Xintong-and-Mark-Selby-1"><a href="#A-demonstration-of-Score-evolution-since-2022-2023-season-for-Judd-Trump-Zhao-Xintong-and-Mark-Selby-1" class="headerlink" title="A demonstration of Score evolution since 2022&#x2F;2023 season for Judd Trump, Zhao Xintong and Mark Selby:"></a>A demonstration of Score evolution since 2022&#x2F;2023 season for Judd Trump, Zhao Xintong and Mark Selby:</h4><p><img src="/images/optionB.png" srcset="/img/loading.gif" lazyload alt="Method B Score Evolution"></p>
+</tbody>
+</table>
+</div>
+<h4 id="A-demonstration-of-Score-evolution-since-2022-2023-season-for-Judd-Trump-Zhao-Xintong-and-Mark-Selby-1"><a href="#A-demonstration-of-Score-evolution-since-2022-2023-season-for-Judd-Trump-Zhao-Xintong-and-Mark-Selby-1" class="headerlink" title="A demonstration of Score evolution since 2022/2023 season for Judd Trump, Zhao Xintong and Mark Selby:"></a>A demonstration of Score evolution since 2022/2023 season for Judd Trump, Zhao Xintong and Mark Selby:</h4><p><img src="/images/optionB.png" srcset="/img/loading.gif" lazyload alt="Method B Score Evolution"></p>
 <h4 id="Prediction-for-2026-World-Open-last-64"><a href="#Prediction-for-2026-World-Open-last-64" class="headerlink" title="Prediction for 2026 World Open last 64:"></a>Prediction for 2026 World Open last 64:</h4><p>source:</p>
 <ul>
-<li>For rankings: <a target="_blank" rel="noopener" href="https://www.snooker.org/res/index.asp?template=33&season=2025">snooker.org</a></li>
+<li>For rankings: <a target="_blank" rel="noopener" href="https://www.snooker.org/res/index.asp?template=33&amp;season=2025">snooker.org</a></li>
 <li>For matches results: <a target="_blank" rel="noopener" href="https://cuetracker.net/seasons/2025-2026">cuetracker.net</a></li>
 </ul>
 <p>sourcecode:</p>

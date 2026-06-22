@@ -633,6 +633,13 @@
   </url>
   
   <url>
+    <loc>https://fredfreddo.github.io/categories/Bridge/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://fredfreddo.github.io/categories/Music-and-Society/</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -641,13 +648,6 @@
   
   <url>
     <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Random-Thoughts/</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Bridge/</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -675,14 +675,14 @@
   </url>
   
   <url>
-    <loc>https://fredfreddo.github.io/categories/Sports/Snooker/</loc>
+    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Data-Science-and-Life/</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fredfreddo.github.io/categories/Sports/Football/</loc>
+    <loc>https://fredfreddo.github.io/categories/Sports/Snooker/</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -696,14 +696,7 @@
   </url>
   
   <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Data-Science-and-Life/</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Sports/Snooker/Data-Science-and-Life/</loc>
+    <loc>https://fredfreddo.github.io/categories/Sports/Football/</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -711,6 +704,13 @@
   
   <url>
     <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Fun-Fact/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fredfreddo.github.io/categories/Sports/Snooker/Data-Science-and-Life/</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
