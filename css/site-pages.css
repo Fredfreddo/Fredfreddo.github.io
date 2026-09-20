@@ -1,0 +1,64 @@
+/* Scoped additions: the existing Fluid blog and article styling stays in charge. */
+.site-welcome { padding: 1rem 0 2rem; }
+.site-intro { max-width: 44rem; margin: 0 auto 2rem; text-align: center; font-size: 1.12rem; line-height: 1.8; }
+.site-paths { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.site-path { display: flex; flex-direction: column; padding: 2rem; border: 1px solid rgba(128, 128, 128, .3); border-radius: .5rem; color: inherit; transition: border-color .2s, box-shadow .2s; }
+.site-path:hover, .site-path:focus-visible { color: inherit; border-color: #718da7; box-shadow: 0 4px 18px rgba(0, 0, 0, .08); text-decoration: none; }
+.site-path:focus-visible { outline: 2px solid #718da7; outline-offset: 4px; }
+.site-path-label { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; opacity: .8; }
+.site-path h2 { margin: .75rem 0 1rem; font-size: 1.65rem; }
+.site-path p { line-height: 1.8; }
+.site-path-action { margin-top: auto; padding-top: 1rem; font-weight: 600; }
+.professional-profile { padding-bottom: 1rem; line-height: 1.85; }
+.professional-profile h2 { margin-top: 2.25rem; padding-bottom: .5rem; border-bottom: 1px solid rgba(128, 128, 128, .25); }
+.professional-profile h3 { margin-top: 1.75rem; font-size: 1.2rem; }
+.professional-profile a { text-decoration: underline; text-underline-offset: .2em; }
+@media (max-width: 640px) {
+  .site-paths { grid-template-columns: 1fr; }
+  .site-path { padding: 1.5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-path { transition: none; }
+}
+
+/* Professional homepage: inherits Fluid's colors, header, footer and dark mode. */
+.pro-home { padding: 2.5rem 0; line-height: 1.75; }
+.pro-hero { display: grid; grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr); gap: 3rem; align-items: center; padding-bottom: 2.5rem; }
+.pro-hero-no-portrait { grid-template-columns: 1fr; }
+.pro-eyebrow { font-size: .73rem; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; opacity: .8; margin-bottom: .65rem; }
+.pro-home h1 { font-size: clamp(2.3rem, 5vw, 3.7rem); letter-spacing: -.04em; line-height: 1.12; margin: 0 0 1rem; }
+.pro-affiliation { font-size: 1.05rem; }
+.pro-intro { max-width: 38rem; margin: 1.25rem 0 1.6rem; }
+.pro-research { max-width: 38rem; margin: -0.5rem 0 1.6rem; }
+.pro-actions { display: flex; flex-wrap: wrap; gap: .7rem; }
+.pro-connect { padding: 1.5rem; margin-bottom: 2rem; background: rgba(113, 141, 167, .08); border-radius: .4rem; scroll-margin-top: 6rem; }
+.pro-connect h2 { font-size: 1.3rem; margin-bottom: .6rem; }
+.pro-home .pro-email { min-width: 0; overflow-wrap: anywhere; display: block; }
+.pro-home .pro-button { display: inline-flex; align-items: center; gap: .65rem; padding: .65rem 1rem; border: 1px solid #718da7; border-radius: .3rem; color: inherit; font-weight: 600; font-size: .9rem; }
+.pro-home .pro-button-primary { background: #355b76; border-color: #355b76; color: #fff; }
+.pro-home a:hover { text-decoration: underline; text-underline-offset: .2em; }
+.pro-home a:focus-visible { outline: 2px solid #718da7; outline-offset: 4px; }
+.pro-portrait-wrap { width: 100%; max-width: 260px; justify-self: center; }
+.pro-portrait { display: block; width: 100%; height: auto; border-radius: .65rem; box-shadow: 0 8px 28px rgba(0, 0, 0, .12); }
+.pro-section-nav { display: flex; flex-wrap: wrap; gap: 1.5rem; padding: 1rem 0; border-top: 1px solid rgba(128,128,128,.25); border-bottom: 1px solid rgba(128,128,128,.25); font-size: .9rem; }
+.pro-section { padding-top: 2.5rem; scroll-margin-top: 6rem; }
+.pro-section > h2 { font-size: 1.8rem; margin-bottom: 1.5rem; letter-spacing: -.02em; }
+.pro-projects { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.pro-project { display: flex; flex-direction: column; padding: 1.4rem; border: 1px solid rgba(128,128,128,.25); border-radius: .4rem; }
+.pro-project h3 { font-size: 1.18rem; line-height: 1.4; margin-bottom: 1rem; }
+.pro-project > p:not(.pro-eyebrow) { font-size: .94rem; }
+.pro-project > a { margin-top: auto; padding-top: .75rem; font-weight: 600; font-size: .9rem; }
+.pro-background-group { margin-top: 1.5rem; scroll-margin-top: 6rem; }
+.pro-background-group > h3 { font-size: 1.2rem; margin-bottom: 1rem; }
+.pro-background { list-style: none; padding: 0; }
+.pro-background li { border-left: 2px solid rgba(113,141,167,.4); padding: 0 0 1.35rem 1.2rem; }
+.pro-background h4 { font-size: 1rem; margin-bottom: .3rem; }
+.pro-background p { font-size: .9rem; margin-bottom: 0; }
+.pro-personal { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(128,128,128,.25); font-size: .9rem; }
+@media (max-width: 900px) { .pro-projects { grid-template-columns: 1fr; } }
+@media (max-width: 640px) {
+  .pro-home { padding: 1.5rem 0; }
+  .pro-hero { grid-template-columns: 1fr; gap: 1.5rem; }
+  .pro-portrait-wrap { grid-row: 1; max-width: 180px; }
+  .pro-section-nav { gap: 1rem; }
+}
