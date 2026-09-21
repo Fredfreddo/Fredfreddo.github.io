@@ -1,762 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://fredfreddo.github.io/index.html</loc>
-    
-    <lastmod>2026-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2026/09/20/About-this-Blog/</loc>
-    
-    <lastmod>2026-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/01/08/About-Me/</loc>
-    
-    <lastmod>2026-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/fangqing-yuan/index.html</loc>
-    
-    <lastmod>2026-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/about/index.html</loc>
-    
-    <lastmod>2026-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2026/09/04/Songs-for-Leaving-a-City/</loc>
-    
-    <lastmod>2026-09-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/google70846db04863b0d0.html</loc>
-    
-    <lastmod>2026-06-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2026/03/12/Snooker-ELO-Inspired-Scores-and-Dashboard/</loc>
-    
-    <lastmod>2026-03-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2026/01/17/2025-Books/</loc>
-    
-    <lastmod>2026-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/07/11/Passer-by/</loc>
-    
-    <lastmod>2025-11-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/07/03/Death-of-a-Footballer/</loc>
-    
-    <lastmod>2025-07-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/06/05/Ode-to-the-Peony/</loc>
-    
-    <lastmod>2025-06-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/03/28/Clean-the-Blackboard/</loc>
-    
-    <lastmod>2025-03-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/03/21/Ding-Junhui-s-Curse-A-Data-Analysis/</loc>
-    
-    <lastmod>2025-03-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/03/07/Rebel-Girls/</loc>
-    
-    <lastmod>2025-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/03/03/Bridge-and-Mixed-Strategy-an-Example/</loc>
-    
-    <lastmod>2025-03-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/02/23/Spring-in-the-North-Youth-from-the-South/</loc>
-    
-    <lastmod>2025-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/01/04/0104/</loc>
-    
-    <lastmod>2025-01-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2019/04/15/remember-fabio-carli-%E8%8A%B1%E6%AF%94%E5%82%B2-the-modern-marco-polo-in-chinese-music-history/</loc>
-    
-    <lastmod>2025-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2019/01/11/visit-the-cemetery-of-italo-calvino-and-a-story-between-him-and-a-young-chinese-student/</loc>
-    
-    <lastmod>2025-01-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2023/12/29/1229/</loc>
-    
-    <lastmod>2025-01-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2023/12/27/1228/</loc>
-    
-    <lastmod>2025-01-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2023/12/25/1227/</loc>
-    
-    <lastmod>2025-01-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2023/03/22/0322/</loc>
-    
-    <lastmod>2025-01-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/01/19/Si-Jiahui/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/01/08/I-walk-fast/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2021/01/31/who-am-i-2018/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/03/01/Toledo/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/02/13/Spring-Festival/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/03/20/Occupy/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/02/14/Next-Stop-Heavenly-Kingdom/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2023/12/31/New-Year-s-Eve-1231-2023/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/01/27/KMT-TPP-Coop-polling/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/01/05/Eat-Cook-Love/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/02/05/Domino-s/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/02/20/Day-Dream-1/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/01/11/Corso-d-italiano/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/01/18/cold/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/05/30/Yellow-Faces/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/05/12/They-Summoned-the-Summer/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/08/27/Szczesny-and-new-semester/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/04/06/Spring-Returns-to-Earth/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/01/13/Past-Lives-film-2023/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/01/26/Kobe/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/06/29/Italia-Eliminata/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/11/20/It-s-My-Party/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/08/13/Green-Island/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/01/30/Elena-Ferrante-1/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/11/10/Ding-Junhui-s-First-Ranking-Title-in-Five-Years/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2024/09/28/Arms-Against-Tyranny/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2025/01/06/2024-Books/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2023/12/30/2023-Books/</loc>
-    
-    <lastmod>2025-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/%E8%81%94%E7%B3%BB%E4%BF%A1%E6%81%AF/index.html</loc>
-    
-    <lastmod>2023-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/%E5%85%B3%E4%BA%8E/index.html</loc>
-    
-    <lastmod>2023-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/2023/12/30/test-post/</loc>
-    
-    <lastmod>2023-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-
-  <url>
-    <loc>https://fredfreddo.github.io/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Huey-Long/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Kaiserreich/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Mystery/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Detective-novels/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Revolution/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Ecofemenism/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/John-Reed/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Sex-Education/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Where-the-Crawdads-Sing/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/%E7%BD%97%E5%A4%A7%E4%BD%91/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Fabio-Carli/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Hong-Kong/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/%E6%9E%97%E5%A4%95/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/test/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Baron-in-the-trees/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Castiglione-della-Pescaia/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Cosimo-Piovasco-di-Rondo/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/tags/Italo-Calvino/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Books/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Early-Days/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Movies-and-TV/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Who-Am-I/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Music-and-Society/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Bridge/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Day-Dream/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Random-Thoughts/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Sports/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Sports/Football/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Sports/Snooker/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Food/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Data-Science-and-Life/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Sports/Basketball/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Sports/Snooker/Data-Science-and-Life/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/Self-Mumbling/Fun-Fact/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fredfreddo.github.io/categories/test-blog/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
+  <url><loc>https://fredfreddo.github.io/2019/01/11/visit-the-cemetery-of-italo-calvino-and-a-story-between-him-and-a-young-chinese-student/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2019/04/15/remember-fabio-carli-%E8%8A%B1%E6%AF%94%E5%82%B2-the-modern-marco-polo-in-chinese-music-history/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2021/01/31/who-am-i-2018/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2023/03/22/0322/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2023/12/25/1227/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2023/12/27/1228/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2023/12/29/1229/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2023/12/30/2023-Books/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2023/12/30/test-post/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2023/12/31/New-Year-s-Eve-1231-2023/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/01/04/0104/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/01/08/I-walk-fast/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/01/11/Corso-d-italiano/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/01/13/Past-Lives-film-2023/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/01/18/cold/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/01/19/Si-Jiahui/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/01/26/Kobe/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/01/27/KMT-TPP-Coop-polling/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/01/30/Elena-Ferrante-1/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/02/05/Domino-s/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/02/13/Spring-Festival/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/02/14/Next-Stop-Heavenly-Kingdom/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/02/20/Day-Dream-1/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/03/01/Toledo/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/03/20/Occupy/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/03/28/Clean-the-Blackboard/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/04/06/Spring-Returns-to-Earth/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/05/12/They-Summoned-the-Summer/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/05/30/Yellow-Faces/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/06/29/Italia-Eliminata/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/08/13/Green-Island/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/08/27/Szczesny-and-new-semester/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/09/28/Arms-Against-Tyranny/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/11/10/Ding-Junhui-s-First-Ranking-Title-in-Five-Years/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2024/11/20/It-s-My-Party/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/01/05/Eat-Cook-Love/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/01/06/2024-Books/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/01/08/About-Me/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/02/23/Spring-in-the-North-Youth-from-the-South/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/03/03/Bridge-and-Mixed-Strategy-an-Example/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/03/07/Rebel-Girls/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/03/21/Ding-Junhui-s-Curse-A-Data-Analysis/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/06/05/Ode-to-the-Peony/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/07/03/Death-of-a-Footballer/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2025/07/11/Passer-by/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2026/01/17/2025-Books/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2026/03/12/Snooker-ELO-Inspired-Scores-and-Dashboard/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2026/09/04/Songs-for-Leaving-a-City/</loc></url>
+  <url><loc>https://fredfreddo.github.io/2026/09/20/About-this-Blog/</loc></url>
+  <url><loc>https://fredfreddo.github.io/Quarto_test/</loc></url>
+  <url><loc>https://fredfreddo.github.io/Quarto_test/quarto_test.html</loc></url>
+  <url><loc>https://fredfreddo.github.io/about/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://fredfreddo.github.io/archives/2019/01/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2019/04/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2019/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2021/01/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2021/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2023/03/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2023/12/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2023/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/01/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/02/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/03/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/04/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/05/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/06/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/08/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/09/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/11/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/page/2/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2024/page/3/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2025/01/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2025/02/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2025/03/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2025/06/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2025/07/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2025/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2026/01/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2026/03/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2026/09/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/2026/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/page/2/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/page/3/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/page/4/</loc></url>
+  <url><loc>https://fredfreddo.github.io/archives/page/5/</loc></url>
+  <url><loc>https://fredfreddo.github.io/blog/</loc></url>
+  <url><loc>https://fredfreddo.github.io/blog/page/2/</loc></url>
+  <url><loc>https://fredfreddo.github.io/blog/page/3/</loc></url>
+  <url><loc>https://fredfreddo.github.io/blog/page/4/</loc></url>
+  <url><loc>https://fredfreddo.github.io/blog/page/5/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Books/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Bridge/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Movies-and-TV/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Music-and-Society/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Music-and-Society/page/2/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Self-Mumbling/Data-Science-and-Life/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Self-Mumbling/Day-Dream/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Self-Mumbling/Early-Days/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Self-Mumbling/Food/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Self-Mumbling/Fun-Fact/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Self-Mumbling/Random-Thoughts/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Self-Mumbling/Who-Am-I/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Self-Mumbling/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Self-Mumbling/page/2/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Sports/Basketball/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Sports/Football/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Sports/Snooker/Data-Science-and-Life/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Sports/Snooker/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/Sports/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/</loc></url>
+  <url><loc>https://fredfreddo.github.io/categories/test-blog/</loc></url>
+  <url><loc>https://fredfreddo.github.io/fangqing-yuan/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://fredfreddo.github.io/google70846db04863b0d0.html</loc><lastmod>2026-06-22</lastmod></url>
+  <url><loc>https://fredfreddo.github.io/</loc><lastmod>2026-09-20</lastmod></url>
+  <url><loc>https://fredfreddo.github.io/links/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Baron-in-the-trees/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Castiglione-della-Pescaia/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Cosimo-Piovasco-di-Rondo/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Detective-novels/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Ecofemenism/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Fabio-Carli/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Hong-Kong/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Huey-Long/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Italo-Calvino/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/John-Reed/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Kaiserreich/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Mystery/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Revolution/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Sex-Education/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/Where-the-Crawdads-Sing/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/test/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/%E6%9E%97%E5%A4%95/</loc></url>
+  <url><loc>https://fredfreddo.github.io/tags/%E7%BD%97%E5%A4%A7%E4%BD%91/</loc></url>
+  <url><loc>https://fredfreddo.github.io/%E5%85%B3%E4%BA%8E/</loc><lastmod>2023-12-30</lastmod></url>
+  <url><loc>https://fredfreddo.github.io/%E8%81%94%E7%B3%BB%E4%BF%A1%E6%81%AF/</loc><lastmod>2023-12-30</lastmod></url>
 </urlset>
